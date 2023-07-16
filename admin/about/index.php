@@ -6,13 +6,13 @@
 <div class="col-lg-12">
 	<div class="card card-outline card-primary">
 		<div class="card-header">
-			<h5 class="card-title">About</h5>
+			<h5 class="card-title">Tentang</h5>
 		</div>
 		<div class="card-body">
 			<form id="about_c">
 				<div class="form-group">
 					<input type="hidden" name="file" value="about">
-					<label for="" class="control-label">About Content</label>
+					<label for="" class="control-label">Tentang Content</label>
 		             <textarea name="content" id="" cols="30" rows="10" class="form-control summernote"><?php echo (is_file(base_app.'about.html')) ? file_get_contents((base_app.'about.html')) : '' ?></textarea>
 				</div>
 			</form>

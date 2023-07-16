@@ -71,8 +71,8 @@ while($row = $c_qry->fetch_assoc()){
 ?>
       <div class="row banner">
          <div class="banner-text">
-            <h1 class="responsive-headline"><?php echo $_settings->info('name') ?></h1>
-            <h3><?php echo stripslashes($_settings->info('welcome_message')) ?></h3>
+            <h1 class="responsive-headline">DKB</h1>
+            <h3>Selamat Datang Di Website Dewan Kesenian Blambangan </h3>
             <hr />
             <ul class="social">
                <li><a target="_blank" href="<?php echo $contact['facebook'] ?>"><i class="fa fa-facebook"></i></a></li>

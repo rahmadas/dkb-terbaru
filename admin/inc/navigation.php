@@ -33,16 +33,16 @@
                       <a href="./" class="nav-link nav-home">
                         <i class="nav-icon fas fa-tachometer-alt"></i>
                         <p>
-                          Dashboard
+                          Halaman Utama
                         </p>
                       </a>
                     </li> 
-                    <li class="nav-header">Contents</li>
+                    <li class="nav-header">Konten</li>
                     <li class="nav-item dropdown">
                       <a href="<?php echo base_url ?>admin/?page=about" class="nav-link nav-about">
                         <i class="nav-icon fas fa-info-circle"></i>
                         <p>
-                          About
+                          Tentang
                         </p>
                       </a>
                     </li>
@@ -50,7 +50,7 @@
                       <a href="<?php echo base_url ?>admin/?page=services" class="nav-link nav-services">
                         <i class="nav-icon fas fa-cog"></i>
                         <p>
-                          Services
+                          Refrensi
                         </p>
                       </a>
                     </li>
@@ -58,7 +58,7 @@
                       <a href="<?php echo base_url ?>admin/?page=clients" class="nav-link nav-clients">
                         <i class="nav-icon fas fa-users"></i>
                         <p>
-                          Clients
+                        Kepengurusan
                         </p>
                       </a>
                     </li>
@@ -66,7 +66,7 @@
                       <a href="<?php echo base_url ?>admin/?page=testimonials" class="nav-link nav-testimonials">
                         <i class="nav-icon fas fa-quote-left"></i>
                         <p>
-                          Clients Testimonials
+                          Berita
                         </p>
                       </a>
                     </li>
@@ -74,7 +74,7 @@
                       <a href="<?php echo base_url ?>admin/?page=contact" class="nav-link nav-contact">
                         <i class="nav-icon fas fa-id-card"></i>
                         <p>
-                          Contact
+                          Kontak
                         </p>
                       </a>
                     </li>
@@ -82,7 +82,7 @@
                       <a href="<?php echo base_url ?>admin/?page=inquiries" class="nav-link nav-inquiries">
                         <i class="nav-icon fas fa-envelope-open-text"></i>
                         <p>
-                          Inquiries
+                          Box Pertanyaan
                         </p>
                       </a>
                     </li>

@@ -22,7 +22,7 @@ if(isset($_GET['id'])){
 <div class="col-lg-12">
 	<div class="card card-outline card-primary">
 		<div class="card-header">
-			<h5 class="card-title"><?php echo isset($id) ? "Manage" : "Create" ?> Clients</h5>
+			<h5 class="card-title"><?php echo isset($id) ? "Manage" : "Create" ?> Kepengurusan</h5>
 		</div>
 		<div class="card-body">
 			<form id="client">
@@ -30,7 +30,7 @@ if(isset($_GET['id'])){
 					<input type="hidden" name="id" value="<?php echo isset($id) ? $id : '' ?>">
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label for="" class="control-label">Company/Business Name</label>
+							<label for="" class="control-label">Nama Pengurus</label>
 							<textarea name="company_name" cols="30" rows="2" class="form-control"><?php echo isset($company_name) ? $company_name : '' ?></textarea>
 						</div>
 					</div>
@@ -39,13 +39,13 @@ if(isset($_GET['id'])){
 				<div class="row">
 					<div class="col-sm-12">
 						<div class="form-group">
-							<label for="" class="control-label">Description</label>
+							<label for="" class="control-label">Deskripsi</label>
 				             <textarea name="description" id="" cols="30" rows="10" class="form-control summernote"><?php echo (isset($description)) ? html_entity_decode(($description)) : '' ?></textarea>
 						</div>
 					</div>
 				</div>
 				<div class="form-group">
-					<label for="" class="control-label">Company/Business Logo</label>
+					<label for="" class="control-label">Gambar Pengurus</label>
 					<div class="custom-file">
 						<input type="hidden" name="old_file" value="<?php echo isset($file_path) ? $file_path :'' ?>">
 		              <input type="file" class="custom-file-input rounded-circle" id="customFile" name="img" onchange="displayImg(this,$(this))">

@@ -12,14 +12,14 @@
 <div class="col-lg-12">
 	<div class="card card-outline card-primary">
 		<div class="card-header">
-			<h5 class="card-title">Contact Details</h5>
+			<h5 class="card-title">Kontak Lengkap</h5>
 		</div>
 		<div class="card-body">
 			<form id="contact">
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label for="" class="control-label">Contact #</label>
+							<label for="" class="control-label">Kontak #</label>
 							<div class="input-group">
 			                    <div class="input-group-prepend">
 			                      <span class="input-group-text"><i class="fa fa-phone"></i></span>
@@ -69,7 +69,7 @@
 				<div class="row">
 					<div class="col-sm-6">
 						<div class="form-group">
-							<label for="" class="control-label">Address</label>
+							<label for="" class="control-label">Alamat</label>
 				             <textarea name="address" id="" cols="30" rows="10" class="form-control "><?php echo (isset($address)) ? ($address) : '' ?></textarea>
 						</div>
 					</div>
@@ -77,7 +77,7 @@
 			</form>
 		</div>
 		<div class="card-footer">
-			<button class="btn btn-primary btn-sm" form="contact">Save</button>
+			<button class="btn btn-primary btn-sm" form="contact">Simpan</button>
 		</div>
 	</div>
 </div>

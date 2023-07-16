@@ -28,9 +28,9 @@
 				<thead>
 					<tr>
 						<th class="text-center">#</th>
-						<th>Logo</th>
-						<th>Company Name</th>
-						<th>Description</th>
+						<th>Gambar</th>
+						<th>Nama Pengurus</th>
+						<th>Jabatan</th>
 						<th>Action</th>
 					</tr>
 				</thead>
